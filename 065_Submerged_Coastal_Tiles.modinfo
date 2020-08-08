@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="894c169e-f496-489b-ba31-85bdb11b6042" version="3">
+  <Properties>
+    <Name>65% Submerged Coastal Tiles</Name>
+    <Description>Increases the number of coastal tiles which can become flooded and submerged. 65% of flat coastal tiles are now affected by rising sea levels.</Description>
+    <Teaser>65% of flat coastal tiles are now affected by rising sea levels.</Teaser>
+    <Authors>Kevin van Rijn</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <Properties>
+        <LoadOrder>1301</LoadOrder>
+      </Properties>
+      <File>CB_Submerge_065.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>CB_Submerge_065.sql</File>
+  </Files>
+</Mod>
